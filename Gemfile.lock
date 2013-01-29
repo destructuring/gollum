@@ -38,10 +38,18 @@ GEM
       capistrano (>= 2.5.14)
     capistrano_colors (0.5.5)
     coderay (1.0.8)
+    colored (1.2)
+    cri (2.3.0)
+      colored (>= 1.2)
     deep_merge (1.0.0)
     diff-lcs (1.2.0)
     erubis (2.7.0)
     expression_parser (0.9.0)
+    ghp (0.0.5)
+      nanoc
+      redcarpet
+      sass
+    ghp-layouts (0.0.2)
     github-markdown (0.5.3)
     github-markup (0.7.5)
     grit (2.5.0)
@@ -84,6 +92,8 @@ GEM
     moneta (0.6.0)
     multi_json (1.5.0)
     mustache (0.99.4)
+    nanoc (3.5.0)
+      cri (~> 2.2)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
     net-sftp (2.0.5)
@@ -128,6 +138,7 @@ GEM
     sanitize (2.0.3)
       nokogiri (>= 1.4.4, < 1.6)
       nokogiri (>= 1.4.4, < 1.6)
+    sass (3.2.5)
     shoulda (3.3.2)
       shoulda-context (~> 1.0.1)
       shoulda-matchers (~> 1.4.1)
@@ -158,6 +169,8 @@ PLATFORMS
 DEPENDENCIES
   RedCloth (~> 4.2.9)
   alpha_omega
+  ghp
+  ghp-layouts
   gollum!
   microwave
   mocha (~> 0.13.0)

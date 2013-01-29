@@ -5,3 +5,5 @@ gem "redcarpet"
 gem 'rake', '~> 10.0.2'
 gem 'microwave'
 gem 'alpha_omega'
+gem 'ghp'
+gem 'ghp-layouts'
