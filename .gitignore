@@ -5,3 +5,7 @@ pkg
 *.gem
 *.swp
 /vendor/bundle
+*.orig
+/tmp
+/output
+/crash.log
