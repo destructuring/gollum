@@ -1,0 +1,6 @@
+---
+remotes:
+  vendor: https://github.com/github/gollum
+  primary: git@github.com:destructuring/gollum
+  secondary: git@bitbucket.org:destructuring/gollum
+  rb: https://github.com/destructuring/rb-helper
